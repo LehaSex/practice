@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>VR</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAq6urAP///wAkJCQA6urqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIgACIAIgAAIiAAIgAhAAIgIAAiMiAAAiAiACIiIAACACIAIgAgACIAAkAiAiAAIgACICIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'><link rel="stylesheet" href="./css/style.css">
+<script type="text/javascript" src="js/hltable.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TimelineLite.min.js'></script>
+<script  src="js/timeline.js"></script>
+
+<style>
+img { pointer-events: none; }
+</style>
+<style type="text/css">
+  table, td, th {border: 1px solid black; border-collapse: collapse;}
+  table th {background-color: #21232a;}
+  /* Определяем стили для подсвечивания строк */
+  .hoverRow { background-color: #212121; }
+  .clickedRow { background-color: #474747; }
+</style>
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
+</head>
+<body>
+
+
+<div class="main">
+			<header class="main-header">
+			<div class="block-cell">
+			<h1>ИНФОГРАФИКА VR</h1>
+			</div>
+		</header>
+      <section>
+<div class="flex-parent">
+
+	<div class="input-flex-container">
+		<div class="input">
+			<span data-year="1950" data-info="Начало развития VR"></span>
+		</div>
+		<div class="input">
+			<span data-year="1961" data-info="Первый шлем VR"></span>
+		</div>
+		<div class="input active">
+			<span data-year="1962" data-info="Первый виртуальный симулятор"></span>
+		</div>
+		<div class="input">
+			<span data-year="1980" data-info="Появление термина"></span>
+		</div>
+		<div class="input">
+			<span data-year="1990" data-info="Соединение VR с телевидением"></span>
+		</div>
+		<div class="input">
+			<span data-year="2012" data-info="Появление Oculus"></span>
+		</div>
+		<div class="input">
+			<span data-year="2014" data-info="Facebook приобрёл Oculus"></span>
+		</div>
+		<div class="input">
+			<span data-year="2015" data-info="Начало продаж шлемов"></span>
+		</div>
+		<div class="input">
+			<span data-year="2016" data-info="Новые устройства"></span>
+		</div>
+		<div class="input">
+			<span data-year="2021" data-info="Развитие в других направлениях"></span>
+		</div>
+	</div>
+	<div class="description-flex-container">
+		<p>Виртуальная реальность — созданный техническими средствами мир, передаваемый человеку через его ощущения: зрение, слух, обоняние, осязание и другие. Виртуальная реальность имитирует как воздействие, так и реакции на воздействие.</p>
+		<p>В 1961 году компания Philco Corporation разработала первые шлемы виртуальной реальности Headsight для военных целей, и это стало первым применением технологии в реальной жизни.</p>
+		<p class="active">Отцом виртуальной реальности по праву считается Мортон Хейлиг. В 1962 он запатентовал первый в мире виртуальный симулятор под названием «Сенсорама».</p>
+		<p>В 80-е годы компания VPL Research разработала более современное оборудование для виртуальной реальности. Появился термин "виртуальная реальность".</p>
+		<p>Австралийка Джули Мартин соединила виртуальную реальность с телевидением.</p>
+		<p>1 августа 2012 года малоизвестный стартап Oculus запустил на платформе Kickstarter кампанию по сбору средств на выпуск шлема виртуальной реальности.
+Необходимые 250 тысяч долларов были собраны уже за первые четыре часа.</p>
+		<p>В 2014 году Facebook приобрела компанию Oculus VR за $2 млрд.</p>
+		<p>Спустя три с половиной года, 6 января 2015 года, начались предпродажи первого серийного потребительского шлема виртуальной реальности Oculus Rift CV1.
+Вся первая партия шлемов была раскуплена за 14 минут.</p>
+		<p>Крупные компании выпускают собственные гарнитуры виртуальной реальности (HTC Vive, Oculus Rift, PlayStation VR), при этом разрабатывая эксклюзивные игры и программное обеспечение только под них.</p>
+		<p>К 2022 году рынок виртуальной, дополненной и смешанной реальности достигнет $150 млрд. Последние годы росту способствовало общее расширение аудитории, растущий спрос среди здравоохранения, промышленности, маркетинга и других областей.</p>
+	</div>
+</div>
+      </section>
+	    
+	    <section>
+		<center><h1>СТАТИСТИКА ИСПОЛЬЗОВАНИЯ</h1></center>
+<div class="pie-container">
+  <div class="row">
+    <div class="col-md-5" id="pieChart"></div>
+    <div id="pieText" class="col-md-7 text-container">
+      <div class="panel">
+        <div class="content-wrapper">
+          <h1 id="segmentTitle">Выберите фрагмент</h1>
+          <p id="segmentText">Детальная информация об использовании VR устройств на рынке.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+	    <section>
+		<div>
+		<center><h1>ВИДЫ VR КОНТРОЛЛЕРОВ</h1>
+<canvas style="margin-right:3%" id="line1" height="100" width="200" ongle="100" angle="0" x="150"></canvas>
+<canvas id="line2" height="100" width="200" ongle="100" angle="100" x="100"></canvas>
+<canvas style="margin-left:3%" id="line3" height="100" width="200" ongle="100" angle="200" x="50"></canvas>
+</center>
+<center><div class="textcols">
+	<div class="textcols-item">
+	<h1>Контроллеры, использующие BLUETOOTH</h1>
+	<img src="images/controller1.png" width="20%" height="20%" alt="">
+	</div>
+	<div class="textcols-item">
+	<h1>Контроллеры, улавливающие движения игрока</h1>
+	<img src="images/controller2.png" width="20%" height="20%" alt="">
+	</div>
+	<div class="textcols-item">
+		<h1>Контроллеры, имитирующие игровые предметы</h1>
+	<img src="images/controller3.png" width="50%" height="20%" alt="">
+
+	</div>
+</div></center>
+<center><div class="textcols">
+	<div class="textcols-item">
+<p style="font-size: 14pt">Позволяет отслеживать движения контроллера за счёт изменения интенсивности магнитного поля в различных направлениях. Преимуществом данного метода является точность, с которой отслеживаются движения, но только в контролируемых условиях.</p>
+	</div>
+	<div class="textcols-item">
+<p style="font-size: 12pt">Преимущества данного подхода в том, что он очень прост в настройке и дешев с точки зрения производства. Недостатки заключаются в том, что трекинг с помощью данной технологии недостаточно точен, а также шлем не сможет отслеживать контроллеры, находящиеся не в зоне видимости шлема, например за спиной у пользователя VR.</p>
+	</div>
+	<div class="textcols-item">
+<p style="font-size: 14pt">Данный метод трекинга работает по принципу отражения радиоволн от контроллера, что позволяет определить местоположение. Однако, данный метод один из самых непопулярных, так как не позволяет добиться высокой точности трекинга.</p
+	</div>
+</div></center>
+		</div>
+		</section>
+	    <section>
+	      <div>
+<center><h1>СРАВНЕНИЕ</h1>
+<br>
+<br>
+<table border="1" id="myTable">
+    <tr>
+        <th>Изображение</th>
+        <td align="center"><img src="images/1.png" width="150px" alt=""></td>
+        <td align="center"><img src="images/2.png" height="80px" alt=""></td>
+        <td align="center"><img src="images/3.png" height="90px" alt=""></td>
+        <td align="center"><img src="images/4.png" height="70px" alt=""></td>
+        <td align="center"><img src="images/5.png" height="90px" alt=""></td>
+        <td align="center"><img src="images/6.png" height="90px" alt=""></td>
+        <td align="center"><img src="images/7.png" height="70px" alt=""></td>
+        <td align="center"><img src="images/8.png" height="70px" alt=""></td>
+        <td align="center"><img src="images/9.png" height="90px" alt=""></td>
+        <td align="center"><img src="images/10.png" height="90px" alt=""></td>
+  
+    </tr>
+    <tr>
+        <th>Модель</th>
+        <td align="center">PlayStation VR</td>
+        <td align="center">Valve Index</td>
+        <td align="center">PiMAX 5k</td>
+        <td align="center">HTC Vive Pro</td>
+        <td align="center">HTC Vive</td>
+        <td align="center">PiMAX 8k</td>
+        <td align="center">Samsung Odyssey+</td>
+        <td align="center">ASUS HC102</td>
+        <td align="center">Oculus Rift S</td>
+        <td align="center">Oculus Quest</td>
+    </tr>
+    <tr>
+        <th>Угол обзора</th>
+        <td align="center">100&deg;</td>
+        <td align="center">130&deg;</td>
+        <td align="center">170&deg;</td>
+        <td align="center">110&deg;</td>
+        <td align="center">110&deg;</td>
+        <td align="center">170&deg;</td>
+        <td align="center">110&deg;</td>
+        <td align="center">95&deg;</td>
+        <td align="center">110&deg;</td>
+        <td align="center">100&deg;</td>
+      
+    </tr>
+    <tr>
+        <th>Частота обновления</th>
+        <td align="center">120Hz</td>
+        <td align="center">144Hz</td>
+        <td align="center">90Hz</td>
+        <td align="center">90Hz</td>
+        <td align="center">90Hz</td>
+        <td align="center">80Hz</td>
+        <td align="center">90Hz</td>
+        <td align="center">90Hz</td>
+        <td align="center">80Hz</td>
+        <td align="center">72Hz</td>
+     
+    </tr>
+    <tr>
+        <th>Тип устройства</th>
+        <td align="center">Подключаемый</td>
+        <td align="center">Подключаемый</td>
+        <td align="center">Подключаемый</td>
+        <td align="center">Подключаемый</td>
+        <td align="center">Подключаемый</td>
+        <td align="center">Подключаемый</td>
+        <td align="center">Автономный</td>
+        <td align="center">Автономный</td>
+        <td align="center">Автономный</td>
+        <td align="center">Автономный</td>
+    
+    </tr>
+    <tr>
+        <th>Поддерживаемая платформа</th>
+        <td align="center">PlayStation</td>
+        <td align="center">Steam</td>
+        <td align="center">Steam</td>
+        <td align="center">Steam</td>
+        <td align="center">Steam</td>
+        <td align="center">Steam</td>
+        <td align="center">Steam</td>
+        <td align="center">Steam</td>
+        <td align="center">Oculus Store</td>
+        <td align="center">Oculus Store</td>
+     
+    </tr>
+    <tr>
+        <th>Цена</th>
+        <td align="center">$348</td>
+        <td align="center">$1000</td>
+        <td align="center">$699</td>
+        <td align="center">$1200</td>
+        <td align="center">$1050</td>
+        <td align="center">$899</td>
+        <td align="center">$499</td>
+        <td align="center">$399</td>
+        <td align="center">$399</td>
+        <td align="center">$399</td>
+   
+    </tr>
+    <tr>
+        <th>Полный набор</th>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10008;</td>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10008;</td>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10004;</td>
+        <td align="center">&#10004;</td>
+      
+    </tr>
+    <tr>
+        <th>Количество пикселей на дюйм</th>
+        <td align="center">9.6</td>
+        <td align="center">11.07</td>
+        <td align="center">12.05</td>
+        <td align="center">13.09</td>
+        <td align="center">9.81</td>
+        <td align="center">15.02</td>
+        <td align="center">13.09</td>
+        <td align="center">15.15</td>
+        <td align="center">11.63</td>
+        <td align="center">14.4</td>
+      
+    </tr>
+    <tr>
+        <th>Разрешение</th>
+        <td align="center">960x1080</td>
+        <td align="center">1440x1600</td>
+        <td align="center">2560x1440</td>
+        <td align="center">1440x1600</td>
+        <td align="center">1080x1200</td>
+        <td align="center">2560x1440</td>
+        <td align="center">1440x1600</td>
+        <td align="center">1440x1440</td>
+        <td align="center">1280x1440</td>
+        <td align="center">1440x1600</td>
+     
+    </tr>
+</table>
+</center>
+    <footer class="main-footer">
+        <p style="margin-top:10px">Инфографику подготовил Решетников Алексей</p>
+    </footer>
+
+  	      </div>
+  	    </div>
+      </section>
+</div>
+<script  src="js/pie_chart.js"></script>
+<script>
+let i = 1;
+while (i != 4) {
+var canvas = document.getElementById('line'+i);
+var val = document.getElementById('line'+i).getAttribute('angle');
+var vol = document.getElementById('line'+i).getAttribute('ongle');
+var x = document.getElementById('line'+i).getAttribute('x');
+var ctx = canvas.getContext('2d');
+//длина линии
+var r = 250;
+ctx.beginPath();
+ctx.moveTo(x,0);
+ctx.lineTo(val,vol);
+ctx.strokeStyle = "white";
+ctx.stroke();
+i++;
+}
+</script>
+<script type="text/javascript">
+//Подсветка по клику и при наведении мышки на ряд, множественный выбор по клику разрешен
+highlightTableRows("myTable","hoverRow","clickedRow");
+</script>
+
+</body>
+</html>
