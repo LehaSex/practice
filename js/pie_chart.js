@@ -1,52 +1,52 @@
 
 var data = [{
   "Title": "HTC Vive",
-  "Amount": 26.07,
+  "Amount": 26.07*0.04,
   "Description": "Шлем виртуальной реальности HTC Vive позволит полностью погрузиться в виртуальный мир и активно взаимодействовать с игровым окружением. На шлеме и ручных контроллерах есть датчики, движение которых фиксируется двумя камерами. Расстояние между линзами и от линз до экрана регулируется при помощи поворотных регуляторов."
 },
 {
   "Title": "Oculus Rift",
-  "Amount": 16.6,
+  "Amount": 16.6*0.04,
   "Description": "Oculus Rift обладает довольно внушительными характеристиками. аспознавание месторасположения работает без ошибок, вы можете свободно передвигаться с большим радиусом действия и не боятся поворотов на 360 градусов вокруг своей головы."
 },
 {
   "Title": "Valve Index HMD",
-  "Amount": 11.94,
+  "Amount": 11.94*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "Windows Mixed Reality",
-  "Amount": 8.54,
+  "Amount": 8.54*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "Oculus Quest",
-  "Amount": 6.03,
+  "Amount": 6.03*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "HTC Vive Pro",
-  "Amount": 3.12,
+  "Amount": 3.12*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "HTC Vive Cosmos",
-  "Amount": 1.15,
+  "Amount": 1.15*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "Sony PlayStation VR",
-  "Amount": 0.51,
+  "Amount": 0.51*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "Pixam 5k Plus",
-  "Amount": 0.07,
+  "Amount": 0.07*0.04,
   "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
 },
 {
   "Title": "Oculus Rift S",
-  "Amount": 21.97,
+  "Amount": 21.97*0.04,
   "Description": "In hac habitasse platea dictumst. Curabitur lacus neque, congue ac quam a, sagittis accumsan mauris. Suspendisse et nisl eros. Fusce nulla mi, tincidunt non faucibus vitae, aliquam vel dolor. Maecenas imperdiet, elit eget condimentum fermentum, sem lorem fringilla felis, vitae cursus lorem elit in risus."
 }];
 

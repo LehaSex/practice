@@ -12,8 +12,6 @@ body, html {
   -webkit-transition: opacity 400ms;
   -moz-transition: opacity 400ms;
   transition: opacity 400ms;
-  width: 1366px
-  
 }
 
 body, .onepage-wrapper, html {
