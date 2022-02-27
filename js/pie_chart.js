@@ -2,12 +2,12 @@
 var data = [{
   "Title": "HTC Vive",
   "Amount": 26.07,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "Шлем виртуальной реальности HTC Vive позволит полностью погрузиться в виртуальный мир и активно взаимодействовать с игровым окружением. На шлеме и ручных контроллерах есть датчики, движение которых фиксируется двумя камерами. Расстояние между линзами и от линз до экрана регулируется при помощи поворотных регуляторов."
 },
 {
   "Title": "Oculus Rift",
   "Amount": 16.6,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "Oculus Rift обладает довольно внушительными характеристиками. аспознавание месторасположения работает без ошибок, вы можете свободно передвигаться с большим радиусом действия и не боятся поворотов на 360 градусов вокруг своей головы."
 },
 {
   "Title": "Valve Index HMD",
