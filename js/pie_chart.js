@@ -12,42 +12,37 @@ var data = [{
 {
   "Title": "Valve Index HMD",
   "Amount": 11.94*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "Профессиональная гарнитура виртуальной реальности с чёткой и качественной картинкой изображения, максимально точным и быстрым откликом от компании Valve. Шлем работает с помощью подключения к ПК и подходит для комфортного использования как в домашних условиях, так и при решении бизнес-задач."
 },
 {
   "Title": "Windows Mixed Reality",
   "Amount": 8.54*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "Комфортный и удобный сверхлегкий VR-шлем Windows Mixed Reality обеспечивает полное погружение в виртуальную реальность, а также превосходную совместимость с другими устройствами."
 },
 {
   "Title": "Oculus Quest",
   "Amount": 6.03*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "Устройство полностью автономное, работающее на базе чипа Qualcomm Snapdragon 835, а также имеет два контролера со шестью степенями свободы. Оснащен дисплеем высокого разрешения и мощным процессором, который обеспечивает производительность и скорость работы, необходимые для полного погружения."
 },
 {
   "Title": "HTC Vive Pro",
   "Amount": 3.12*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "В его основе, кроме различных сенсоров, также используется 2 экрана высокого разрешения с частотой обновления 120 Гц – для левого и правого глаза. Благодаря им, а также поддержке широких углов обзора вы сможете уверенно чувствовать себя в виртуальном мире игры, с легкостью различая даже самые мелкие объекты окружения. "
 },
 {
   "Title": "HTC Vive Cosmos",
   "Amount": 1.15*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "HTC Vive Cosmos поддерживает встроенный трекинг, который обладает высокой точностью за счет наличия 6 камер-сенсоров, которые обеспечивают более широкий охват пространства. Модель с поддержкой частоты обновления дисплея 90 Гц отличается четкой графикой."
 },
 {
   "Title": "Sony PlayStation VR",
   "Amount": 0.51*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
-},
-{
-  "Title": "Pixam 5k Plus",
-  "Amount": 0.07*0.04,
-  "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum metus vel odio convallis condimentum. Integer ullamcorper ipsum vel dui varius congue. Nulla facilisi. Morbi molestie tortor libero, ac placerat urna mollis ac. Vestibulum id ipsum mauris."
+  "Description": "Предназначен для использования с консолью PlayStation VR. Эта модель оборудована 5,7-дюймовым дисплеем, воспроизводящим картинку с разрешением Full HD. Технология 3D-звучания поможет тебе поверить в то, что ты на самом деле перенёсся в сказочный замок, на поле знаменитой исторической битвы или на другую планету."
 },
 {
   "Title": "Oculus Rift S",
   "Amount": 21.97*0.04,
-  "Description": "In hac habitasse platea dictumst. Curabitur lacus neque, congue ac quam a, sagittis accumsan mauris. Suspendisse et nisl eros. Fusce nulla mi, tincidunt non faucibus vitae, aliquam vel dolor. Maecenas imperdiet, elit eget condimentum fermentum, sem lorem fringilla felis, vitae cursus lorem elit in risus."
+  "Description": "Шлем виртуальной реальности Oculus Rift S оснащается одним крупным дисплеем, чье разрешение почти в полтора раза больше, чем у предыдущей модели Rift и равняется 1280х1440 пикселов для каждой из линз. Помимо этого, здесь применяется обновленный LCD-дисплей, который гарантирует, что коэффициент заполнения будет в разы выше."
 }];
 
 var width = parseInt(d3.select('#pieChart').style('width'), 10);

@@ -698,6 +698,10 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 @media (min-width: 965.02px) and (max-width: 1314px) {
   div.pie-container {
     padding: 10px 5%;
+	width: 965px;
+    margin: 0 auto;
+	    position: absolute;
+    top: 35%;
   }
   div.pie-container #pieChart {
     counter-reset: break-point 60;
